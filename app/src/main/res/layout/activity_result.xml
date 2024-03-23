@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".ResultActivity">
+
+    <TextView
+        android:id="@+id/feedBack"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginLeft="14dp"
+        android:layout_marginTop="100dp"
+        android:textStyle="bold"
+        android:textColor="#1C363C"
+        android:textSize="23sp"
+
+        android:text="TextView" />
+
+    <TextView
+        android:id="@+id/result_score"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginLeft="14dp"
+        android:layout_marginTop="50dp"
+        android:text="TextView"
+        android:textColorLink="#F10707"
+        android:textStyle="bold"
+        android:textColor="#1C363C"
+        android:textSize="23sp" />
+
+    <Button
+        android:id="@+id/reset"
+        android:layout_width="181dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginLeft="14dp"
+        android:layout_marginTop="100dp"
+        android:backgroundTint="#DD1818"
+        android:text="Reset"
+        android:shadowColor="#DD1818"
+        android:textColorLink="#DD1818"
+        android:textSize="20sp" />
+</LinearLayout>
